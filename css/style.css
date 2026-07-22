@@ -105,8 +105,9 @@ button {
 }
 
 .button:hover {
-  background-color: transparent;
-  color: var(--color-text);
+  background-color: var(--color-main);
+  border-color: var(--color-main);
+  color: var(--color-white);
 }
 
 .button-light {
