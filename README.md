@@ -68,3 +68,7 @@ yomoyomo-stay/
 - `favicon.ico` を実際のサイトアイコンに差し替える
 - OGPの `https://example.com/` を実際の公開URLに変更する
 - お問い合わせフォームの送信機能を実装する
+
+## 学習メモ
+
+このサイト制作を通じて、HTML/CSSの基本構造、レスポンシブ対応、簡単なJavaScript、Gitによる履歴管理を練習しました。
