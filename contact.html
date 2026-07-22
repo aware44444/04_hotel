@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>お問い合わせ | yomoyomo stay</title>
+  <meta name="description" content="yomoyomo stayへのお問い合わせページです。宿泊、設備、長期滞在に関するご質問はこちらからお問い合わせください。">
+
+  <meta property="og:title" content="お問い合わせ | yomoyomo stay">
+  <meta property="og:description" content="yomoyomo stayへの宿泊、設備、長期滞在に関するお問い合わせはこちらから。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://example.com/contact.html">
+  <meta property="og:image" content="https://example.com/images/ogp.jpg">
+  <meta property="og:site_name" content="yomoyomo stay">
+
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1 class="site-logo">
+      <a href="index.html">yomoyomo stay</a>
+    </h1>
+
+    <button class="menu-button" type="button" aria-label="メニューを開く">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="global-nav">
+      <ul>
+        <li><a href="index.html#concept">Concept</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="index.html#plan">Plan</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="index.html#access">Access</a></li>
+        <li><a href="contact.html"  class="is-current">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="page-hero-inner">
+        <p class="section-label">Contact</p>
+        <h2>お問い合わせ</h2>
+        <p>
+          宿泊に関するご質問や、長期滞在のご相談など、お気軽にお問い合わせください。
+        </p>
+      </div>
+    </section>
+
+    <section class="section contact-page">
+      <div class="section-inner contact-layout">
+
+        <div class="contact-info">
+          <p class="section-label">Information</p>
+          <h2 class="section-title">ご予約前のご相談も歓迎です</h2>
+          <p>
+            空室状況、設備、周辺環境、長期滞在についてなど、
+            気になることがあればフォームよりお問い合わせください。
+          </p>
+
+          <dl class="contact-list">
+            <div>
+              <dt>受付時間</dt>
+              <dd>10:00〜18:00</dd>
+            </div>
+            <div>
+              <dt>返信目安</dt>
+              <dd>通常2営業日以内</dd>
+            </div>
+            <div>
+              <dt>所在地</dt>
+              <dd>京都府京都市〇〇区〇〇町 1-2-3</dd>
+            </div>
+          </dl>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-item">
+            <label for="name">お名前</label>
+            <input type="text" id="name" name="name" placeholder="山田 太郎" >
+             <p class="error-message"></p>
+          </div>
+
+          <div class="form-item">
+            <label for="email">メールアドレス</label>
+            <input type="email" id="email" name="email" placeholder="example@example.com" >
+            <p class="error-message"></p>
+          </div>
+
+          <div class="form-item">
+            <label for="category">お問い合わせ種別</label>
+            <select id="category" name="category" >
+              <option value="">選択してください</option>
+              <option value="reservation">ご予約について</option>
+              <option value="facility">設備について</option>
+              <option value="long-stay">長期滞在について</option>
+              <option value="other">その他</option>
+            </select>
+            <p class="error-message"></p>
+          </div>
+
+          <div class="form-item">
+            <label for="message">お問い合わせ内容</label>
+            <textarea id="message" name="message" rows="7" placeholder="お問い合わせ内容をご入力ください" ></textarea>
+            <p class="error-message"></p>
+          </div>
+
+          <button class="button form-button" type="submit">送信する</button>
+          <p class="form-success-message"></p>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-logo">yomoyomo stay</p>
+
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="index.html#concept">Concept</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="index.html#plan">Plan</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="index.html#access">Access</a></li>
+        <li><a href="contact.html" class="is-current">Contact</a></li>
+      </ul>
+    </nav>
+
+    <small class="copyright">&copy; 2026 yomoyomo stay</small>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
